@@ -154,5 +154,5 @@ app.get('https://api.spotify.com/v1/me', function (req,res) {
   console.log("get request and set user ID = " + this.state.user)
 })
 
-console.log('Listening on 8888');
-app.listen(8888);
+console.log('Listening on 8888'); // PORT for heroku
+app.listen(PORT);
